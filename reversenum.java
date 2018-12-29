@@ -1,8 +1,10 @@
-# hello-world
-code to reverse number without swapping...
- import java.util.*;
- public class Swap
- {   void main()
+//hello-world
+//code to reverse number without swapping...
+
+import java.util.*;
+ public class SmartSwap
+ {   
+  public void main()
     {
      Scanner sc=new Scanner(System.in);
      int a,b;
@@ -10,7 +12,7 @@ code to reverse number without swapping...
      a=sc.nextInt();
      System.out.println("ENTER the SECOND number:");
      b=sc.nextInt();
-     a=a+b;
+     a=a+b; //logic part
      b=a-b;
      a=a-b;
      System.out.println("FIRST NUMBER AFTER SWAPPING IS:"+a);
