@@ -1,5 +1,5 @@
-//hello-world
-//code to reverse number without swapping...
+
+//code to swap numbers without temp variable...
 
 import java.util.*;
  public class SmartSwap
